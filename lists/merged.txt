@@ -318,8 +318,8 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 新乡公共,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226667/index.m3u8
 新乡新闻综合,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226395/index.m3u8
 新乡新闻综合,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226688/index.m3u8
-新乡县,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226359/index.m3u8
-新乡县,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226603/index.m3u8
+新乡,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226359/index.m3u8
+新乡,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226603/index.m3u8
 获嘉,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227097/index.m3u8
 原阳,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227069/index.m3u8
 延津,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227098/index.m3u8

@@ -631,9 +631,9 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226667/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226395/index.m3u8
 #EXTINF:-1 tvg-name="新乡新闻综合" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/新乡新闻综合.png" group-title="河南地市",新乡新闻综合
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226688/index.m3u8
-#EXTINF:-1 tvg-name="新乡县" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/新乡县.png" group-title="河南地市",新乡县
+#EXTINF:-1 tvg-name="新乡" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/新乡.png" group-title="河南地市",新乡
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226359/index.m3u8
-#EXTINF:-1 tvg-name="新乡县" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/新乡县.png" group-title="河南地市",新乡县
+#EXTINF:-1 tvg-name="新乡" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/新乡.png" group-title="河南地市",新乡
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226603/index.m3u8
 #EXTINF:-1 tvg-name="获嘉" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/获嘉.png" group-title="河南地市",获嘉
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227097/index.m3u8
