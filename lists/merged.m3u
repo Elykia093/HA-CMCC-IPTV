@@ -389,8 +389,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226639/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南卫视.png" group-title="河南频道",河南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227198/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南卫视.png" group-title="河南频道",河南卫视
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227243/index.m3u8
 #EXTINF:-1 tvg-name="河南都市频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南都市频道.png" group-title="河南频道",河南都市频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227241/index.m3u8
 #EXTINF:-1 tvg-name="河南都市频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南都市频道.png" group-title="河南频道",河南都市频道
@@ -433,6 +431,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226535/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226441/index.m3u8
 #EXTINF:-1 tvg-name="河南公共频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南公共频道.png" group-title="河南频道",河南公共频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
+#EXTINF:-1 tvg-name="河南公共频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南公共频道.png" group-title="河南频道",河南公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227243/index.m3u8
 #EXTINF:-1 tvg-name="河南乡村频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南乡村频道.png" group-title="河南频道",河南乡村频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
 #EXTINF:-1 tvg-name="河南乡村频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/河南乡村频道.png" group-title="河南频道",河南乡村频道
@@ -823,7 +823,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226613/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226364/index.m3u8
 #EXTINF:-1 tvg-name="驻马店科教频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/驻马店科教频道.png" group-title="河南地市",驻马店科教频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226598/index.m3u8
-#EXTINF:-1 tvg-name="西平电视台" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/西平电视台.png" group-title="河南地市",西平电视台
+#EXTINF:-1 tvg-name="西平" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/西平.png" group-title="河南地市",西平
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226680/index.m3u8
 #EXTINF:-1 tvg-name="上蔡" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/上蔡.png" group-title="河南地市",上蔡
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227065/index.m3u8
@@ -847,9 +847,9 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226334/index.m3u8
 #EXTINF:-1 tvg-name="财富天下" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/财富天下.png" group-title="数字频道",财富天下
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226696/index.m3u8
-#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/茶频道.png" group-title="数字频道",茶频道
+#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/中国天气.png" group-title="数字频道",中国天气
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226329/index.m3u8
-#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/茶频道.png" group-title="数字频道",茶频道
+#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/中国天气.png" group-title="数字频道",中国天气
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226647/index.m3u8
 #EXTINF:-1 tvg-name="东方财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/tv/东方财经.png" group-title="数字频道",东方财经
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226583/index.m3u8

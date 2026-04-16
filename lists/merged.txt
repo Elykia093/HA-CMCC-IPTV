@@ -196,7 +196,6 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226639/index.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227198/index.m3u8
-河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227243/index.m3u8
 河南都市频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227241/index.m3u8
 河南都市频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226430/index.m3u8
 河南都市频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226649/index.m3u8
@@ -218,6 +217,7 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 河南欢腾购物,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226535/index.m3u8
 河南公共频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226441/index.m3u8
 河南公共频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226566/index.m3u8
+河南公共频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227243/index.m3u8
 河南乡村频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226443/index.m3u8
 河南乡村频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226576/index.m3u8
 河南国际频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226588/index.m3u8
@@ -414,7 +414,7 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 驻马店新闻综合频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226613/index.m3u8
 驻马店科教频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226364/index.m3u8
 驻马店科教频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226598/index.m3u8
-西平电视台,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226680/index.m3u8
+西平,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226680/index.m3u8
 上蔡,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227065/index.m3u8
 正阳,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227420/index.m3u8
 泌阳,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227347/index.m3u8
@@ -427,8 +427,8 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 北京纪实科教,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/index.m3u8
 财富天下,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226334/index.m3u8
 财富天下,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226696/index.m3u8
-茶频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226329/index.m3u8
-茶频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226647/index.m3u8
+中国天气,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226329/index.m3u8
+中国天气,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226647/index.m3u8
 东方财经,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226583/index.m3u8
 动漫秀场,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226608/index.m3u8
 动漫秀场,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226325/index.m3u8
