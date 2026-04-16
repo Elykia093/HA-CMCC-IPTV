@@ -2,6 +2,8 @@
 
 > 自动从多个上游同步、去重、合并，生成统一直播源。
 > 走的是运营商内网 HTTP 单播，不依赖机顶盒，有河南移动宽带就能看。
+>
+> **测试环境**：郑州移动宽带 ✅
 
 ---
 
@@ -10,6 +12,7 @@
 | 类型 | 地址 | 说明 |
 |:---|:---|:---|
 | **直播源** | `https://raw.githubusercontent.com/Elykia/HN-CMCC-IPTV/main/lists/merged.m3u` | 合并 4 个上游，去重后输出 |
+| **直播源（加速）** | `https://gh-proxy.com/https://raw.githubusercontent.com/Elykia/HN-CMCC-IPTV/main/lists/merged.m3u` | 国内 gh-proxy 加速 |
 | **EPG 节目指南** | `https://live.lizanyang.top/e.xml` | 引用上游，不同步到本地 |
 
 ---
