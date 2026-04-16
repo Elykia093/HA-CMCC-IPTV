@@ -1,0 +1,39 @@
+name: Sync IPTV Sources
+
+on:
+  schedule:
+    - cron: '0 6 1,16 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run sync script
+        run: python scripts/sync.py
+
+      - name: Commit and push
+        run: |
+          git add lists/merged.m3u logos/
+          git diff --quiet && git diff --staged --quiet || git commit -m "⏱️ $(date +"%Y年%m月%d日-%H时%M分") 自动同步上游直播源"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+
+  keepalive:
+    name: Keepalive
+    if: always()
+    needs: sync
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
