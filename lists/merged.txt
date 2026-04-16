@@ -239,10 +239,10 @@ CGTN西班牙语,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390
 武术世界,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226692/index.m3u8
 百姓调解,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
 百姓调解,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226581/index.m3u8
-睛彩河南曲艺,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226589/index.m3u8
-睛彩河南曲艺,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
-睛彩移动戏曲,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8
-睛彩移动戏曲,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226628/index.m3u8
+河南睛彩中原,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226589/index.m3u8
+河南睛彩中原,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
+河南移动戏曲,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8
+河南移动戏曲,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226628/index.m3u8
 河南地市,#genre#
 郑州商都频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226402/index.m3u8
 郑州商都频道,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226650/index.m3u8
