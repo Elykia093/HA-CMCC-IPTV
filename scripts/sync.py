@@ -18,12 +18,12 @@ from dataclasses import dataclass
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IPTV_TXT = os.path.join(BASE_DIR, "lists", "iptv.txt")
 IPTV_M3U = os.path.join(BASE_DIR, "lists", "iptv.m3u")
-SYNC_DIR = os.path.join(BASE_DIR, "lists", "sync")
+SYNC_DIR = os.path.join(BASE_DIR, "sync")
 PENDING_TXT = os.path.join(SYNC_DIR, "pending.txt")
 PENDING_M3U = os.path.join(SYNC_DIR, "pending.m3u")
 PENDING_README = os.path.join(SYNC_DIR, "README.md")
 STATE_FILE = os.path.join(BASE_DIR, ".sync_state.json")
-LOGO_BASE = "https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/iptv"
+LOGO_BASE = "https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos"
 
 # ========== 上游来源配置 ==========
 
@@ -236,7 +236,7 @@ def write_sync_readme(new_channels: list[Channel], updated_sources: list[str]):
         f.write("审核完成后：\n")
         f.write("1. 将需要的频道从 `pending.txt` 合并到 `lists/iptv.txt`（注意分组顺序）\n")
         f.write("2. 运行 m3u 生成脚本或手动生成 `lists/iptv.m3u`\n")
-        f.write("3. 补充对应台标到 `logos/iptv/`\n")
+        f.write("3. 补充对应台标到 `logos/`\n")
         f.write("4. 删除 `sync/` 目录下的 pending 文件\n")
 
 
@@ -331,7 +331,7 @@ def main():
         write_m3u(new_channels, PENDING_M3U)
         write_sync_readme(new_channels, updated_sources)
 
-        print(f"\n已写入 lists/sync/:")
+        print(f"\n已写入 sync/:")
         print(f"  - pending.txt（待合并频道）")
         print(f"  - pending.m3u")
         print(f"  - README.md（审核说明）")

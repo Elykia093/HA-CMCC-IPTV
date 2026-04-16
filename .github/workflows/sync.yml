@@ -24,9 +24,9 @@ jobs:
 
       - name: Commit and push
         run: |
-          git add lists/merged.m3u lists/merged.txt logos/
+          git add lists/iptv.m3u lists/iptv.txt logos/ sync/
           git diff --quiet && git diff --staged --quiet || git commit -m "⏱️ $(date +"%Y年%m月%d日-%H时%M分") 自动同步上游直播源"
-          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
   keepalive:
     name: Keepalive

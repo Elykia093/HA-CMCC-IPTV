@@ -71,11 +71,12 @@
 ├── lists/
 │   ├── iptv.m3u           # 直播源 M3U
 │   └── iptv.txt           # 直播源 TXT
-├── logos/iptv/             # 台标（频道名.png，251 个）
+├── logos/                   # 台标（频道名.png，251 个）
+├── sync/                    # 上游更新待审核文件（自动生成）
 ├── scripts/
 │   └── sync.py              # 同步脚本
 └── .github/workflows/
-    └── sync.yml             # GitHub Actions 工作流
+│   └── sync.yml             # GitHub Actions 工作流
 ```
 
 ---
