@@ -15,7 +15,7 @@
 | **直播源（TXT）** | `https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.txt` | 同上，TXT 格式 |
 | **直播源（M3U 加速）** | `https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.m3u` | 国内 gh-proxy 加速 |
 | **直播源（TXT 加速）** | `https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.txt` | 国内 gh-proxy 加速 |
-| **EPG 节目指南** | `https://epg.zsdc.eu.org/t.xml` | 119 频道，7 天回看+5 天预告 |
+| **EPG 节目指南** | `https://epg.zsdc.eu.org/t.xml` | 引用 [suzukua/epg](https://github.com/suzukua/epg)，7 天回看+5 天预告 |
 
 ---
 
@@ -25,7 +25,7 @@
 
 | 分类 | 说明 |
 |:---|:---|
-| **央视频道** | CCTV 全系列（1-17）、CCTV-4K、CETV、CGTN |
+| **央视频道** | CCTV 全系列（1-17）、CCTV4K、CETV、CGTN |
 | **地方卫视** | 各省卫视（含卫视 4K）、港澳频道 |
 | **河南频道** | 河南省级频道（都市、民生、法制等） |
 | **河南地市** | 河南各地市县级频道 |
@@ -39,8 +39,8 @@
 |:---|:---|:---|
 | Android TV | mytv-android | [GitHub Releases](https://github.com/yaoxieyoulei/mytv-android/releases) |
 | Android TV | TVBox | [GitHub](https://github.com/CatVodTVOfficial/TVBoxOSC) |
-| PC | VLC | [videolan.org](https://www.videolan.org/vlc/) |
-| PC | PotPlayer | [potplayer.daum.net](https://potplayer.daum.net/) |
+| PC | VLC | [官网下载](https://www.videolan.org/vlc/) |
+| PC | PotPlayer | [potplayer.org](https://potplayer.org/) |
 | iOS / macOS | APTV | [App Store](https://apps.apple.com/cn/app/aptv/id1630403500) |
 
 ---
