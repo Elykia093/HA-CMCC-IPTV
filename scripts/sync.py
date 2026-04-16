@@ -256,55 +256,51 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
 
 
 def backup_logos(channels: list[Channel]) -> dict[str, str]:
-    """下载远程 logo 到本地，返回 远程URL→本地路径 的映射"""
+    """将远程 logo 替换为本地路径，本地没有的尝试下载"""
     from urllib.parse import urlparse
-    import hashlib
 
-    remote_urls = set()
+    mapping = {}
+    local_hit = 0
+    downloaded = 0
+    failed = 0
+
+    remote_logos = set()
     for ch in channels:
         if ch.tvg_logo:
             domain = urlparse(ch.tvg_logo).netloc
             if domain in LOGO_REMOTE_DOMAINS:
-                remote_urls.add(ch.tvg_logo)
+                remote_logos.add(ch.tvg_logo)
 
-    if not remote_urls:
+    if not remote_logos:
         return {}
 
-    os.makedirs(LOGO_DIR, exist_ok=True)
-    mapping = {}
-    success = 0
-    failed = 0
+    print(f"\n处理 Logo: 共 {len(remote_logos)} 个远程引用")
 
-    print(f"\n备份 Logo: 共 {len(remote_urls)} 个")
+    for url in remote_logos:
+        filename = os.path.basename(urlparse(url).path)
+        local_path = os.path.join(LOGO_DIR, "tv", filename)
+        rel_path = f"logos/tv/{filename}"
 
-    for url in remote_urls:
-        # 用 URL 路径保留文件名，冲突时加 hash
-        path = urlparse(url).path.lstrip("/")
-        local_path = os.path.join(LOGO_DIR, path)
+        if os.path.exists(local_path) and os.path.getsize(local_path) > 0:
+            mapping[url] = rel_path
+            local_hit += 1
+            continue
+
+        # 本地没有，尝试下载
         os.makedirs(os.path.dirname(local_path), exist_ok=True)
-
-        # m3u 中引用的相对路径
-        rel_path = os.path.join("logos", path).replace("\\", "/")
-
         try:
-            if os.path.exists(local_path) and os.path.getsize(local_path) > 0:
-                # 已存在，跳过下载
-                mapping[url] = rel_path
-                success += 1
-                continue
-
             req = urllib.request.Request(url, headers={"User-Agent": "HN-CMCC-IPTV-Sync/1.0"})
             resp = urllib.request.urlopen(req, timeout=15)
             data = resp.read()
             with open(local_path, "wb") as f:
                 f.write(data)
             mapping[url] = rel_path
-            success += 1
+            downloaded += 1
         except Exception:
             # 下载失败保留原始远程地址
             failed += 1
 
-    print(f"  成功: {success}, 失败: {failed}")
+    print(f"  本地命中: {local_hit}, 新下载: {downloaded}, 失败: {failed}")
     return mapping
 
 
