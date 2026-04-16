@@ -13,9 +13,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit and push
         run: |
-          git add lists/merged.m3u logos/
+          git add lists/merged.m3u lists/merged.txt logos/
           git diff --quiet && git diff --staged --quiet || git commit -m "⏱️ $(date +"%Y年%m月%d日-%H时%M分") 自动同步上游直播源"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
