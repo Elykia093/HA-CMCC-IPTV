@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://live.lizanyang.top/e.xml"
+#EXTM3U url-tvg="https://epg.zsdc.eu.org/t.xml"
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/CCTV1.png" group-title="央视频道",CCTV1
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227163/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/logos/CCTV1.png" group-title="央视频道",CCTV1

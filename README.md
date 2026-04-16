@@ -15,7 +15,7 @@
 | **直播源（TXT）** | `https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.txt` | 同上，TXT 格式 |
 | **直播源（M3U 加速）** | `https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.m3u` | 国内 gh-proxy 加速 |
 | **直播源（TXT 加速）** | `https://gh-proxy.com/https://raw.githubusercontent.com/Elykia093/HA-CMCC-IPTV/main/lists/iptv.txt` | 国内 gh-proxy 加速 |
-| **EPG 节目指南** | `https://live.lizanyang.top/e.xml` | 引用上游，不同步到本地 |
+| **EPG 节目指南** | `https://epg.zsdc.eu.org/t.xml` | 119 频道，7 天回看+5 天预告 |
 
 ---
 
@@ -50,7 +50,7 @@
 | 来源 | 平台 | 说明 |
 |:---|:---|:---|
 | [vnsu/HeNanCMCCIPTV](https://github.com/vnsu/HeNanCMCCIPTV) | GitHub | 多线路备选，台标+分组 |
-| [lizanyang3/lizanyang3.github.io](https://github.com/lizanyang3/lizanyang3.github.io) | GitHub | 回看支持，自托管台标+EPG |
+| [lizanyang3/lizanyang3.github.io](https://github.com/lizanyang3/lizanyang3.github.io) | GitHub | 回看支持，自托管台标 |
 | [xisohi/CHINA-IPTV](https://github.com/xisohi/CHINA-IPTV) | GitHub | 全国 IPTV 汇总，河南单播+组播 |
 
 ---

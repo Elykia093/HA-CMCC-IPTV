@@ -45,7 +45,7 @@ SOURCES = [
     },
 ]
 
-EPG_URL = "https://live.lizanyang.top/e.xml"
+EPG_URL = "https://epg.zsdc.eu.org/t.xml"
 VALID_URL_PREFIX = "http://iptv.cdn.ha.chinamobile.com/PLTV"
 
 # ========== 数据结构 ==========
