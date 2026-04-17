@@ -207,7 +207,7 @@ def write_m3u(channels: list[Channel], filepath: str):
         for group in sorted(groups.keys()):
             for ch in groups[group]:
                 f.write(
-                    f'#EXTINF:-1 tvg-name="{ch.name}" tvg-logo="{LOGO_BASE}/{ch.name}.png" group-title="{group}",{ch.name}\n'
+                    f'#EXTINF:-1 tvg-id="{ch.name}" tvg-name="{ch.name}" tvg-logo="{LOGO_BASE}/{ch.name}.png" group-title="{group}",{ch.name}\n'
                 )
                 f.write(f"{ch.url}\n")
 
